@@ -21,9 +21,9 @@ try:
     with open(os.path.join(folder, "presensi.csv"), mode="w", newline="") as file_csv:
         writer = csv.writer(file_csv)
         writer.writerow(["nim", "nama", "hadir_uts"])
-        writer.writerow(["23001", "RANGGA", 1])
-        writer.writerow(["23002", "VALENT", 0])
-        writer.writerow(["23003", "AL NINO", 1])
+        writer.writerow(["230103035", "RANGGA", 1])
+        writer.writerow(["230103035", "VALENT", 0])
+        writer.writerow(["230103035", "AL NINO", 1])
 
     logging.info("File CSV berhasil dibuat.")
 except Exception as e:
